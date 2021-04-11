@@ -26,7 +26,7 @@ The whole system is an array `planets` in RAM of planet `struct`s
 
 At startup, the `planets` array is initialized into some hard-coded planetary configuration.
 
-Each iteration employs four modeling stages. Each state employs a different GPU kernel for hardware acceleration.
+Each iteration employs four modeling stages. Stages 2 and 3 employ two different GPU kernels for hardware acceleration.
 
 ### Stage 1: host => device copy ###
 
