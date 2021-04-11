@@ -8,6 +8,12 @@ Simulate Newtonian gravitation. Leverage GPU acceleration with CUDA.
 * CUDA tools esp. nvcc
 * NVIDIA GPU, NVIDIA RTX 2080 Ti utilized for this test
 
+# Build command
+
+```
+nvcc -rdc=true dynamics_cuda.cu main.cu -o gravsim
+```
+
 # Description
 
 This tool models Newtonian gravitation and leverages GPU acceleration. 
