@@ -84,7 +84,7 @@ int main() {
   
   // Iter
 
-  int print_rate=10000;
+  int print_rate=100000;
 
   for (int i=0; i<NITER; i++) {
 
